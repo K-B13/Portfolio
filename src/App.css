@@ -5,6 +5,7 @@ body {
   color: #64ffda;
   background-color: #0a192f;
   font-family: 'belanosima', 'serif';
+  width: 100vw;
 }
 
 .App {
