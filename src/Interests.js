@@ -13,7 +13,7 @@ export default function Interests() {
       <div className="interest-container">
         <div className="interests">
           <div className='int-title'>
-            <h4>Bouldering.</h4>
+            <h3>Bouldering.</h3>
             <img src={Climbing} width='28rem' height='30rem' />
           </div>
           <p className="int-text">
@@ -22,7 +22,7 @@ export default function Interests() {
         </div>
         <div className="interests">
           <div className='int-title'>
-            <h4>Hiking.</h4>
+            <h3>Hiking.</h3>
             <img src={Hiking} width='28rem' height='30rem' />
           </div>
           <p className='int-text'>
@@ -31,7 +31,7 @@ export default function Interests() {
         </div>
         <div className="interests">
           <div className='int-title'>
-            <h4>Snowboarding.</h4>
+            <h3>Snowboarding.</h3>
             <img src={Snowboarding} width='28rem' height='30rem' />
           </div>
           <p className='int-text'>
@@ -40,7 +40,7 @@ export default function Interests() {
         </div>
         <div className="interests">
           <div className='int-title'>
-            <h4>Travelling.</h4>
+            <h3>Travelling.</h3>
             <img src={Travelling} width='28rem' height='30rem' />
           </div>
           <p className='int-text'>

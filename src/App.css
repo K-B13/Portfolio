@@ -36,6 +36,7 @@ nav {
   flex-grow: 1;
   border: #64ffda 1px solid;
   animation: draw 2s;
+  border-radius: 2rem;
 }
 
 @keyframes draw {
@@ -49,6 +50,8 @@ nav {
   justify-content: center;
   align-items: center;
   border: 0.1rem solid #64ffda;
+  border-radius: 2rem;
+  padding: 0.4rem;
 }
 
 .nav-items a {
@@ -117,6 +120,7 @@ aside {
   flex-direction: column;
   align-items: center;
   border: 0.1rem solid #64ffda;
+  border-radius: 2rem;
   min-height: 6.5rem;
 }
 
@@ -241,6 +245,7 @@ h1 {
   font-size: 1.5rem;
   padding: 0.8rem 2rem;
   margin: 1rem 0;
+  border-radius: 2rem;
 }
 
 .bs-side {
@@ -310,7 +315,7 @@ h1 {
   border: 2px solid #64ffda;
   margin: 0.5rem 0;
   justify-content: space-around;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   padding: 0.3rem;
 }
 
@@ -354,8 +359,6 @@ h1 {
 .arrow-button:hover {
   cursor: pointer;
   scale: 1.1;
-  border: 0.1rem solid #64ffda;
-  margin: 0.1rem;
   background-color: #64ffda;
 }
 
@@ -414,7 +417,7 @@ h1 {
 }
 
 #interests {
-  min-height: 150vh;
+  /* min-height: 150vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -424,13 +427,10 @@ h1 {
 
 .interest-container {
   display: flex;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5rem;
   flex-grow: 1;
   margin: 0.5rem 0;
-  width: 85%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -439,12 +439,13 @@ h1 {
   text-align: center;
   border: 0.1rem solid #64ffda;
   width: 35rem;
-  height: 7rem;
-  padding: 0.3rem 0 0 0;
+  /* height: 7rem; */
+  padding: 0.3rem 0 0.4rem 0;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin: 0 0 2rem 0;
 }
 
 .int-title {
@@ -459,7 +460,7 @@ h1 {
   border: white 0.2rem solid;
 }
 
-.interests h4 {
+.interests h3 {
   margin: 0.8rem 0.2rem 0.3rem 0
   /* flex-grow: 1; */
 }
