@@ -381,12 +381,11 @@ h1 {
 
 .project-container {
   display: flex;
-  min-width: 30rem;
   justify-content: center;
 }
 
 .ext-links {
-  min-width: 10rem;
+  min-width: 8rem;
   display: flex;
   justify-content: space-between;
   margin: 0 0 1.5rem 0;
@@ -402,7 +401,7 @@ h1 {
   margin: 0 0.5rem;
   align-items: center;
   text-align: center;
-  min-width: 5rem;
+  min-width: 4rem;
 }
 
 .indiv-skill:hover {
@@ -566,8 +565,9 @@ h1 {
 }
 
 @media screen and (max-width: 650px) {
+
   body {
-    width: 500px;
+    width: 100vw;
   }
 
   .brand-statement-container {
