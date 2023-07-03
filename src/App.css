@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Oswald&display=swap');
 
 body {
-  height: 100vh;
+  height: 805vh;
   color: #64ffda;
   background-color: #0a192f;
   font-family: 'belanosima', 'serif';
-  width: 100vw;
+  width: 99.2vw;
 }
 
 .App {
@@ -21,7 +21,7 @@ hr {
 }
 
 nav {
-  max-width: 5rem;
+  /* max-width: 6rem; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -30,6 +30,7 @@ nav {
   flex-grow: 1;
   align-items: center;
 }
+
 .nav-sides {
   max-width: 0; 
   flex-grow: 1;
@@ -51,15 +52,13 @@ nav {
 }
 
 .nav-items a {
-  padding: 0.4rem 0 0.4rem 0;
+  padding: 0.4rem 0.2rem 0.4rem 0.2rem;
   text-decoration: none;
   color: #64ffda;
   text-align: center;
-  width: 5.4rem;
+  /* width: 5.4rem; */
   transition-delay: 2000ms;
 }
-
-
 
 .nav-one {
   animation: navappear 1s 500ms forwards;
@@ -107,9 +106,10 @@ nav {
 }
 
 aside {
-  min-width: 5.4rem;
+  min-width: 6rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .icons {
@@ -137,6 +137,8 @@ main {
 h1 {
   animation: appear 2s 400ms forwards;
   opacity: 0;
+  font-size: 3.2rem;
+  margin: 0.3rem;
 }
 
 .landing-page {
@@ -145,6 +147,12 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.landing-page div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .landing-message {
@@ -219,12 +227,20 @@ h1 {
   width: 90%;
   flex-grow: 1;
   justify-content: center;
-  border: 0.5rem solid #64ffda;
+  
 }
 
 .brand-statement-container {
   flex-grow: 0.6;
-  max-width: 25rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.5rem solid #64ffda;
+  font-size: 1.5rem;
+  padding: 0.8rem 2rem;
+  margin: 1rem 0;
 }
 
 .bs-side {
@@ -236,6 +252,7 @@ h1 {
 
 .brand-statement {
   text-align: left;
+  margin: 0.6rem;
 }
 
 #top-of-page {
@@ -243,7 +260,7 @@ h1 {
 }
 
 #about-me {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -546,4 +563,43 @@ h1 {
   cursor: pointer;
   background-color: #64ffda;
   color: #0a192f;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    width: 500px;
+  }
+
+  .brand-statement-container {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .nav-items {
+    font-size: 1.4rem;
+    /* padding: 0.3rem 0 0.3rem; */
+  }
+
+  .nav-items a {
+    padding: 0.8rem 0 0.8rem 0;
+  }
+
+  .icons a{
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  @keyframes downarrow {
+    0% {
+      transform: translate(0, 0);
+      opactiy: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    90% {
+      transform: translate(0, 5rem);
+      opactiy: 0;
+    }
+  }
+  
 }

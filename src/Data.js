@@ -71,10 +71,6 @@ export const projectInfo = [
     description: 'GA Project 3 - This was a group project developed over the course of 7 days. It is an event management app, with three other developers,  where users can create events, attend events made by others and comment their thoughts. The app includes authentication with signup, login and logout features. This project was built using the MERN stack.',
     languages: [
       {
-        name: 'HTMl',
-        logo: HTML5
-      },
-      {
         name: 'CSS',
         logo: CSS
       },
@@ -109,10 +105,6 @@ export const projectInfo = [
     img: TSS,
     description: 'GA Project 4 - This was a group project developed over the course of 7 days. A social media app where users can search for friends, add them, create posts, create comments on posts, like comments and posts. The app utilises authentication to create a login feature so the experience can be catered to the logged in user. This project was full stack using React as a front end, Ruby-on-Rails as a back end and PostgreSQL as the database.',
     languages: [
-      {
-        name: 'HTMl',
-        logo: HTML5
-      },
       {
         name: 'SASS',
         logo: SASS
